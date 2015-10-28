@@ -6,9 +6,10 @@ angularjs, requires, dynamically loading controllers and views, best practice
 ##技术方案
 >
 1. 基于angularjs；
+1. angular-route处理路由；
 2. require处理模块依赖；
 3. 异步加载controller和view；
-4. 使用vm；
+4. 使用routeResolver和vm；
 5. 整体依照业务逻辑划分，局部按照功能划分；
 
 ##项目组成
