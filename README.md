@@ -1,4 +1,7 @@
-# askgreenstone  for web
+# angularjs best practice
+
+##关键词语
+angularjs, requires, dynamically loading controllers and views, best practice
 
 ##技术方案
 >
