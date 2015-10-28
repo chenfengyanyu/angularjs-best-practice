@@ -1,0 +1,59 @@
+﻿<html>
+	<head>
+	    <title>绿石开门网页版</title>
+	    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	    <link rel="stylesheet" href="lib/bootstrap.min.css">
+	    <!-- <link rel="stylesheet" href="css/example.animate.css"> -->
+	    <link rel="stylesheet" href="css/base.css">
+	</head>
+
+	<body>
+	    <header>
+	    	<div class="nav">
+	    		<div class="logo">
+	    			<img id="dynamicImg" src="image/logo.png" width="40" height="40"/>
+	    			<img src="image/logo_title.png" width="80" height="18"/>
+	    		</div>
+	    		<ul class="menu">
+	    			<li class="active"><a href="#chat">咨询会话</a></li>
+	    			<li><a href="#docs">个人文档</a></li>
+	    			<li><a href="#circle">绿 石 圈</a></li>
+	    		</ul>
+	    		<div class="logout">注销登录</div>
+	    	</div>
+	    </header>
+
+	    <!-- <div ng-view></div> -->
+
+	    <div data-ng-view></div>
+
+	    <!-- 修复底部空白 -->
+	    <div class="fix_bottom"></div>
+	    <footer>
+	    	<div class="address">
+	    		<span>官网地址：lvshikaimen.com</span>
+	    		<span>askgreenstone.com</span>
+	    	</div>
+	    	<div class="copy">©2015 绿石（北京）网络科技有限公司 版权所有 京ICP备14054431号-2</div>
+	    </footer>
+	</body>
+	<script type="text/javascript"  src="lib/jquery.min.js"></script>
+	<script type="text/javascript"  src="lib/angular.min.js"></script>
+	<script type="text/javascript"  src="lib/angular-route.js"></script>
+	<!-- 视图区域动态加载，其他直接加载静态资源 -->
+	<script data-main="js/main" src="lib/require.min.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('.menu li').bind('click',function(){
+				$(this).siblings().removeClass('active');
+				$(this).addClass('active');
+			})
+			$('.logo').bind('mouseover',function() {
+				$('#dynamicImg').attr({src: 'image/logo.gif'});
+			}).bind('mouseout',function() {
+				$('#dynamicImg').attr({src: 'image/logo.png'});
+			});
+		});
+	</script>
+</html>

@@ -1,0 +1,203 @@
+/*index.html*/
+
+body {
+    background-color: #eee;
+    margin: 0 auto;
+    color: #595757;
+}
+
+a:link, 
+a:visited { 
+color:#595757; 
+text-decoration:none; 
+} 
+a:hover, 
+a:active { 
+color:#595757; 
+text-decoration:none; 
+} 
+
+header {
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    position: fixed;
+    top: 0;
+}
+
+.nav {
+    width: 75%;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #595757;
+}
+
+.logo {
+    float: left;
+    margin-top: -3px;
+}
+
+.logo img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    float: left;
+}
+
+.logout {
+    float: right;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    height: 60px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.menu li:hover {
+    border-bottom: 4px solid #3bbffc;
+}
+
+.menu .active {
+    border-bottom: 4px solid #3bbffc;
+}
+
+.menu a{
+	display: inline-block;
+	height: 60px;
+}
+
+.copy {
+    color: #7c7c7c;
+    font-size: 12px;
+}
+
+.address {
+    font-size: 14px;
+    color: #a6a6a6;
+    margin: 20px 10px 10px 0;
+}
+
+.address span {
+    margin-right: 15px;
+}
+
+.fix_bottom {
+    height: 85px;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.view {
+    background-color: #fff;
+    width: 75%;
+    border-radius: 3px;
+    min-height: 350px;
+    margin: 80px auto 20px;
+}
+
+.view_title{
+	border-bottom: 1px solid #e1e1e1;
+  height: 50px;
+  color: #595757;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 20px 20px 0;
+}
+
+/*docs.html*/
+.docs_table{
+  width: 96%;
+  margin: 0 20px;
+}
+.docs_table th{
+	font-size: 14px;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  color: rgba(132,128,127,0.9);
+}
+.docs_table tr{
+	font-size: 14px;
+	color:#3a393e;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+}
+/*.docs_table tr:hover{
+	color: rgba(0,0,0,1);
+}*/
+.docs_table td{
+	padding: 20px 0;
+	color: #84807f;
+	line-height: 25px;
+}
+.docs_type{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.world{
+	background:url('../image/docs/word.png') no-repeat 50% 50% #239ce4;
+}
+.pdf{
+	background:url('../image/docs/pdf.png') no-repeat 50% 50% #fc6c46;
+}
+.ppt{
+	background:url('../image/docs/ppt.png') no-repeat 50% 50% #fa8e3d;
+}
+.xls{
+	background:url('../image/docs/xls.png') no-repeat 50% 50% #6db42d;
+}
+.other{
+	background:url('../image/docs/other.png') no-repeat 50% 50% #7a7a7a;
+}
+.docs_download{
+	display: inline-block;
+  margin-right: 15px;
+}
+.docs_delete{
+	display: inline-block;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

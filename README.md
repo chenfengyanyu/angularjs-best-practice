@@ -1,0 +1,55 @@
+# askgreenstone  for web
+
+##技术方案
+>
+1. 基于angularjs；
+2. require处理模块依赖；
+3. 异步加载controller和view；
+4. 使用vm；
+5. 整体依照业务逻辑划分，局部按照功能划分；
+
+##项目组成
+>项目主要由css，image，js，lib，view四部分组成，js部分和view部分如下：
+- js
+	- app
+		- app.js
+	- controllers
+		- chat
+			- chatController.js
+		- circle
+			- circleController.js
+		- docs
+			- docsController.js
+	- directives
+		- directive.js
+	- filters
+		- filter.js
+	- services
+		- routeResolver.js
+		- service.js
+	- main.js
+- view 
+	- chat
+		- chat.html
+	- circle
+		- circle.html
+	- docs
+		- docs.html
+		
+##代码规范
+>
+1.git add README.md  
+2.git commit -a -m 'update readme'  
+3.git push origin dev  
+4.test_service.sh  
+
+##注意事项
+> 
+1.操作前要洗手；  
+2.注意操作姿势；  
+3.选择正确时机；  
+
+
+
+
+
