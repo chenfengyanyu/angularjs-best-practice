@@ -6,11 +6,11 @@ angularjs, requires, dynamically loading controllers and views, best practice
 ##技术方案
 >
 1. 基于angularjs；
-1. angular-route处理路由；
-2. require处理模块依赖；
-3. 异步加载controller和view；
-4. 使用routeResolver和vm；
-5. 整体依照业务逻辑划分，局部按照功能划分；
+2. angular-route处理路由；
+3. require处理模块依赖；
+4. 异步加载controller和view；
+5. 使用routeResolver和vm；
+6. 整体依照业务逻辑划分，局部按照功能划分；
 
 ##项目组成
 >项目主要由css，image，js，lib，view四部分组成，js部分和view部分如下：
